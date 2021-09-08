@@ -1,0 +1,21 @@
+.task_delete_btn {
+    width: 10px;
+    height: 10px;
+    margin-right: 16px;
+    padding: 3px;
+    border: 2px var(--secondary-color) solid;
+    /* color: var(--primary-color); */
+    background-position: center;
+    background-size: contain;
+    border-radius: 50%;
+    border: 2px grey solid;
+    cursor: pointer;
+}
+.taskCompleted {
+    visibility: hidden;
+}
+form {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
